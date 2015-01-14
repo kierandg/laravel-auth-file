@@ -1,0 +1,23 @@
+{
+    "name": "gponster/laravel-auth-file",
+    "type": "library",
+    "description": "File-based auth driver",
+    "keywords": ["Auth", "Laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gponster",
+            "email": "anhvudg@gmail.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.4.0",
+        "illuminate/support": "4.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Gponster\\Auth\\File": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
