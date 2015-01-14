@@ -55,6 +55,7 @@ and replace the auth driver to 'file'
 	
 The simple AuthUser class
 
+```php
 use Illuminate\Auth\UserInterface;
 use Illuminate\Auth\Reminders\RemindableInterface;
 use Illuminate\Auth\GenericUser;
@@ -107,3 +108,4 @@ class AuthUser extends GenericUser implements UserInterface, RemindableInterface
 		return $this->attributes['email'];
 	}
 }
+```
